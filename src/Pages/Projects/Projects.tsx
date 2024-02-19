@@ -4,7 +4,7 @@ import './index.scss'
 import Card from '../../Components/Card/Card'
 
 
-import CCXP from '../../images/imgProjects/CCXP.svg'
+import ToDoList from '../../images/imgProjects/ToDoList.svg'
 import Byecar from '../../images/imgProjects/Byecar.svg'
 import Deliveryeasy from '../../images/imgProjects/Deliveryeasy.svg'
 import React from '../../images/imgProjects/React.svg'
@@ -14,13 +14,21 @@ function Projects() {
         <div className="Projects" id="Projects">
             <h1> Projetos </h1>
 
-            <Card 
+            <Card
                 img={React}
                 title="PORTFÓLIO"
-                tech="React, HTML, CSS, JavaScript"
-                description="Meu portfólio, que estão vendo agora!! Meu primeiro projeto em React, que gostei muito de fazer, tive alguns desafios que eu mesmo propus, que me fizeram aprender ainda mais sobre a linguagem, durante o processo."
-                repo="https://github.com/RoniFebrone/Portfolio-react.git"
-                site="portifolio-ewfzik0rg-ronifebrone.vercel.app"
+                tech="React, TypeScript, SASS, Vite"
+                description="Meu portfólio, que estão vendo agora!! Esse foi uma migração do meu primeiro projeto em react, que hoje está com a tipagem do TypeScript. No primeiro momento, foi bem difícil fazer, por se tratar da primeira experiência com react, e para migra-lo para o TS, foi bem mais simples, mas notável que precisa de otimização"
+                repo="https://github.com/RoniFebrone/Portifolio-tsx"
+                site="https://portifolio-tsx-tau.vercel.app"
+            />
+            <Card
+                img={ToDoList}
+                title="Lista de tarefas"
+                tech="React JS, Vite, React Router Dom, Sass, JSON Server, NodeJS"
+                description="Projeto Front-end, que era apenas pra ser uma simples lista de tarefas apenas sem seu modelo vizual, mas utilizei, um banco de dados adaptado em nodeJS para simular um banco de dados com o JSON Server para que fique mais funcional para testes, e que me ajudou entender muito mais sobre hospedagens, AWS, até o próprio nodeJS "
+                repo="https://github.com/RoniFebrone/to-do-list"
+                site="https://to-do-list-taupe-one.vercel.app"
             />
             <Card
                 img={Byecar}
@@ -30,7 +38,7 @@ function Projects() {
                 repo="https://github.com/RoniFebrone/Figma-Lp-comp.git"
                 site="https://lp-byecar.netlify.app"
             />
-            <Card 
+            <Card
                 img={Deliveryeasy}
                 title="APLICATIVO DE DELIVERY (UI/UX)"
                 tech="Figma"
@@ -38,14 +46,7 @@ function Projects() {
                 repo="https://github.com/RoniFebrone/UI-e-UX-Training.git"
                 site="https://www.figma.com/proto/zuxZprLMP5mM5oxy0b2Ty6/DeliveryEasy?type=design&node-id=142-9639&t=aRtjZ39ncrd9K8aU-1&scaling=min-zoom&page-id=142%3A4347&starting-point-node-id=142%3A12557&mode=design"
             />
-            <Card
-                img={CCXP}
-                title="LP Lançamento - CCXP"
-                tech="HTML, CSS, JavaScript"
-                description="Projeto Front-End para que fiz como um desafio para treino de lógica de programação, uso do JavaScrip, e treino em geral de HTML e CSS"
-                repo="https://github.com/RoniFebrone/LP-Lancamento-CCXP.git"
-                site="https://lp-lancamento-ccxp.vercel.app"
-            />
+
             <div>
                 <a href="https://github.com/RoniFebrone?tab=repositories">
                     <button className='btnPrj'>
