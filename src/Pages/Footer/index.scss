@@ -1,0 +1,46 @@
+/* Estilos básicos para dispositivos móveis */
+.footer {
+    margin-top: 2rem; 
+    margin-bottom: 1rem; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: center;
+    margin: 1rem 2rem; 
+}
+
+.footer li {
+    margin: 0.5rem; 
+}
+
+.footer a {
+    color: aliceblue !important;
+}
+
+.footer p {
+    margin: 1rem 1.5rem; 
+    font-size: 1.125rem; 
+    text-align: center;
+}
+
+/* Estilos adicionais para telas médias (exemplo: tablets em orientação retrato) */
+@media screen and (min-width: 768px) {
+    .footer {
+        flex-direction: row;
+    }
+
+    .footer ul {
+        margin: 0; 
+    }
+
+    .footer li {
+        margin-left: 1rem; 
+    }
+}

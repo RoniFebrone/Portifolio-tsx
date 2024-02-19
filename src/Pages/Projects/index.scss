@@ -1,0 +1,112 @@
+/* Estilos básicos para dispositivos móveis */
+.Projects {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    gap: 3.5em;
+
+    margin-top: 3em;
+
+}
+
+.Projects h1 {
+    text-align: justify;
+    font-size: 2.8125rem;
+
+    margin: 0;
+}
+
+.btnPrj {
+        background-color: transparent;
+        color: white;
+    
+        border-radius: 10px;
+        border: solid 1px white;
+    
+        font-weight: bolder;
+        cursor: pointer;
+        transition-duration: 0.5s;
+        
+        height: 60px;
+        width: 300px;
+    
+        &:hover {
+            color: white;
+            background-color: #010B28;
+            transition-duration: 0.65s;
+            transform: translateY(-3px);
+        }
+    }
+    
+
+
+
+
+/* Estilos para telas pequenas (exemplo: smartphones em orientação retrato) */
+@media screen and (min-width: 576px) {
+    .Projects {
+        margin:0;
+    }
+
+    .Projects h1 {
+        font-size: 2.5rem; 
+        
+    }
+
+    .btnPrj {
+        width: 18.75rem; 
+        height: 3rem; 
+        font-size: 1rem; 
+    }
+}
+
+/* Estilos para telas médias (exemplo: tablets em orientação retrato) */
+@media screen and (min-width: 768px) {
+    .Projects {
+        margin:0;
+    }
+
+    .Projects h1 {
+        font-size: 2.75rem; 
+    }
+
+    .btnPrj {
+        width: 20rem;
+    }
+}
+
+/* Estilos para telas grandes (exemplo: tablets em orientação paisagem) */
+@media screen and (min-width: 992px) {
+    .Projects {
+        margin:0;
+    }
+
+    .Projects h1 {
+        font-size: 3rem; 
+    }
+
+    .btnPrj {
+        width: 22.5rem; 
+    }
+}
+
+/* Estilos para telas extra grandes (exemplo: monitores grandes) */
+@media screen and (min-width: 1200px) {
+    .Projects {
+        margin: 0;
+        margin-top: 3em;
+    }
+
+    .Projects h1 {
+        font-size: 3.5rem; 
+        margin-bottom: 0.7em;
+    }
+
+    .btnPrj {
+        width: 25rem;
+        height: 70px; 
+
+        font-size: large;
+    }
+}

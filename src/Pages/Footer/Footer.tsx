@@ -1,0 +1,23 @@
+import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
+import './index.scss'
+
+function Footer() {
+    return (
+        <div className="footer">
+            <ul>
+                <li> <a href='https://instagram.com/roninho_f?igshid=OGQ5ZDc2ODk2ZA==' target='Blank'> <FaInstagram size={45} /> </a></li>
+                <li> <a href='https://www.linkedin.com/notifications/?filter=all' target='Blank'> <FaLinkedin size={45} /> </a></li>
+                <li> <a href='https://github.com/RoniFebrone' target='Blank'> <FaGithub size={45} /> </a></li>
+            </ul>
+
+            <p>
+                ronifebrone9@gmail.com
+            </p>
+            <p>
+                Roni Febrone © 2023
+            </p>
+        </div>
+    )
+}
+
+export default Footer
