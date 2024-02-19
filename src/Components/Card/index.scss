@@ -27,10 +27,27 @@
         font-weight: 780;
     }
 
-    h4 {
+    &__h4 {
         margin: 1.5%;
         font-size: 1.875rem;
         font-weight: 600;
+
+        overflow: hidden;
+        overflow-y: auto;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+
+    &__p {
+        margin-bottom: 5px;
+        margin-left: 1%;
+        margin-top: 0.5rem;
+        font-size: 1.125rem;
+        max-height: 83px;
+
+        position: relative;
 
         overflow: hidden;
         overflow-y: auto;
@@ -55,22 +72,7 @@ section {
     padding-bottom: 0.8em;
 }
 
-p {
-    margin-bottom: 5px;
-    margin-left: 1%;
-    margin-top: 0.5rem;
-    font-size: 1.125rem;
-    max-height: 83px;
 
-    position: relative;
-
-    overflow: hidden;
-    overflow-y: auto;
-
-    &::-webkit-scrollbar {
-        display: none;
-    }
-}
 
 div {
     position: relative;
@@ -125,7 +127,7 @@ div {
             margin-top: 0.2em;
         }
 
-        h4 {
+        &__h4 {
             font-size: 1rem;
 
             overflow: hidden;
@@ -135,17 +137,17 @@ div {
                 display: none;
             }
         }
-    }
 
-    p {
-        font-size: 0.925rem;
-        max-height: 53px;
-        position: relative;
-        overflow: hidden;
-        overflow-y: auto;
+        &__p {
+            font-size: 0.925rem;
+            max-height: 53px;
+            position: relative;
+            overflow: hidden;
+            overflow-y: auto;
 
-        &::-webkit-scrollbar {
-            display: none;
+            &::-webkit-scrollbar {
+                display: none;
+            }
         }
     }
 }
@@ -185,7 +187,7 @@ img {
             font-size: 1.675rem;
         }
 
-        h4 {
+        &__h4 {
             font-size: 1.475rem;
             overflow: hidden;
             overflow-y: auto;
@@ -217,53 +219,53 @@ img {
         section {
             padding: 1rem;
             margin: 0;
-    
+
             height: 15.5rem;
             width: 100%;
-    
+
             text-align: left;
             background-color: rgba(1, 9, 28, 0.75);
             border-radius: 20px;
             overflow: hidden;
-    
+
             a {
                 width: 100%;
             }
-    
+
             img {
                 width: 100%;
             }
-    
+
             h3 {
                 font-size: 1.975rem;
             }
-    
-            h4 {
+
+            &__h4 {
                 font-size: 1.675rem;
                 width: 100%;
                 height: 50px;
-    
+
                 overflow: hidden;
                 overflow-y: auto;
-    
+
                 &::-webkit-scrollbar {
                     display: none;
                 }
             }
-    
-            p {
+
+            &__p {
                 font-size: 1rem;
                 margin-left: 0.5rem;
                 margin-bottom: 1.5rem;
-    
+
                 max-height: 60px;
                 overflow: hidden;
                 overflow-y: auto;
-    
+
                 &::-webkit-scrollbar {
                     display: none;
                 }
             }
         }
     }
-    }
+}

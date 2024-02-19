@@ -5,15 +5,26 @@
     align-items: center;
     gap: 3.5em;
     margin-top: 3em;
-}
+    
+    h1 {
+        text-align: justify;
+        font-size: 2.8125rem;
+        margin: 0;
+    }
 
-.Projects h1 {
-    text-align: justify;
-    font-size: 2.8125rem;
-    margin: 0;
+    &__div--a{
+        text-align: center;
+    }
+    &__a{
+        text-align: center;
+    }
+
 }
 
 .btnPrj {
+
+        align-items: center;    
+
         background-color: transparent;
         color: white;
     

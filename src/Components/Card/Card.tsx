@@ -23,8 +23,8 @@ const Card = ({ img, title, tech, description, repo, site }: CardProps) => {
 
             <section>
                 <h3> {title} </h3>
-                <h4>  Tecnologias : {tech} </h4>
-                <p className='btnP' > {description} </p>
+                <h4 className='card__h4'>  Tecnologias : {tech} </h4>
+                <p className='card__p' > {description} </p>
 
                 {/* <ButtonB text='Acesse o repositório' link={repo} /> */}
 

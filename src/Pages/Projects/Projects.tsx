@@ -47,8 +47,8 @@ function Projects() {
                 site="https://www.figma.com/proto/zuxZprLMP5mM5oxy0b2Ty6/DeliveryEasy?type=design&node-id=142-9639&t=aRtjZ39ncrd9K8aU-1&scaling=min-zoom&page-id=142%3A4347&starting-point-node-id=142%3A12557&mode=design"
             />
 
-            <div>
-                <a href="https://github.com/RoniFebrone?tab=repositories">
+            <div className='Projects__div--a'>
+                <a className='Projects__a' href="https://github.com/RoniFebrone?tab=repositories">
                     <button className='btnPrj'>
                         Acesse meu repositório completo!!!
                     </button>
