@@ -1,7 +1,6 @@
 /* Estilos básicos para dispositivos móveis */
 .presentation {
     text-align: center;
-    /* Centraliza o texto em dispositivos móveis */
     display: flex;
     flex-direction: column;
 
@@ -9,24 +8,28 @@
     align-items: center;
 }
 
-.presentation h1 {
-    font-size: 2.8125rem;
-    height: 3.2em;
-}
+.presentation {
 
-.presentation h4 {
-    font-size: 1.5625rem;
-}
+    h1 {
+        font-size: 2.8125rem;
+        height: 3.2em;
+    }
 
-.presentation p {
-    font-size: 1.2rem;
 
-    width: 90%;
-}
+    h4 {
+        font-size: 1.5625rem;
+    }
 
-.presentation a {
-    text-decoration: none;
-    color: #74FAC0;
+    p {
+        font-size: 1.2rem;
+
+        width: 90%;
+    }
+
+    a {
+        text-decoration: none;
+        color: #74FAC0;
+    }
 }
 
 .btnPresentation {
@@ -40,9 +43,9 @@
     height: 50px;
     width: 200px;
     cursor: pointer;
-    
+
     font-size: 15px;
-    font-weight:600;
+    font-weight: 600;
 
     &:hover {
         color: white;
@@ -56,12 +59,14 @@
 /* Estilos adicionais para telas pequenas (exemplo: smartphones em orientação retrato) */
 @media screen and (min-width: 576px) {
 
-    .presentation h1 {
-        font-size: 2.5rem;
-    }
+    .presentation {
+        h1 {
+            font-size: 2.5rem;
+        }
 
-    .presentation h4 {
-        font-size: 1.25rem;
+        h4 {
+            font-size: 1.25rem;
+        }
     }
 }
 
@@ -70,14 +75,14 @@
     .presentation {
         margin-left: 3rem;
         text-align: left;
-    }
 
-    .presentation h1 {
-        font-size: 2.75rem;
-    }
+        h1 {
+            font-size: 2.75rem;
+        }
 
-    .presentation h4 {
-        font-size: 1.375rem;
+        h4 {
+            font-size: 1.375rem;
+        }
     }
 }
 
@@ -85,53 +90,45 @@
 @media screen and (min-width: 992px) {
     .presentation {
         margin-left: 5%;
-    }
+        
+        h1 {
+            font-size: 3rem;
+        }
 
-    .presentation h1 {
-        font-size: 3rem;
-    }
-
-    .presentation h4 {
-        font-size: 1.5rem;
+        h4 {
+            font-size: 1.5rem;
+        }
     }
 }
 
 /* Estilos para telas extra grandes (exemplo: monitores grandes) */
 @media screen and (min-width: 1200px) {
     .presentation {
-
         justify-content: center;
         align-items: flex-start;
-
         margin-left: 15%;
 
-
-    }
-
-    .presentation h1 {
-        font-size: 2.8rem;
-        height: auto;
-
-
-    }
-
-    .presentation h4 {
-        font-size: 1.6rem;
-
-        margin: 0;
+        h1 {
+            font-size: 2.8rem;
+            height: auto;
+        }
+        h4 {
+            font-size: 1.6rem;
+            margin: 0;
+        }
+        p {
+            font-size: 1.2rem;
+        }        
     }
 }
 
-.presentation p {
-    font-size: 1.2rem;
 
-}
-.btnPresentation{
+.btnPresentation {
     margin-top: 10px;
 
     height: 60px;
     width: 250px;
-    
+
     font-size: 20px;
-    font-weight:600;
+    font-weight: 600;
 }

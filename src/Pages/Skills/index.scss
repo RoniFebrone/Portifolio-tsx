@@ -19,11 +19,6 @@
 }
 
 
-
-
-
-/* Substitui 25px com base no fator de escala (n/16) */
-
 .skills img {
     width: 6rem; 
     height: 6rem; 
@@ -46,13 +41,6 @@
 }
 
 
-
-
-
-
-
-
-/* Estilos adicionais para telas pequenas (exemplo: smartphones em orientação retrato) */
 @media screen and (min-width: 576px) {
     .skills {
         margin: 2rem; 
@@ -75,39 +63,27 @@
 }
 
 
-
-
-
-
-
-/* Estilos para telas médias (exemplo: tablets em orientação retrato) */
 @media screen and (min-width: 768px) {
     .skills {
         margin: 3rem; /* Ajuste necessário para telas médias */
     }
 
     .skills img {
-        width: 8rem; /* Ajuste necessário para telas médias */
-        height: 8rem; /* Ajuste necessário para telas médias */
-        margin: 2rem; /* Ajuste necessário para telas médias */
+        width: 8rem; 
+        height: 8rem;  
+        margin: 2rem; 
     }
 
     .skills h1 {
-        font-size: 2.75rem; /* Ajuste necessário para telas médias */
+        font-size: 2.75rem; 
     }
 
     .skills p {
-        font-size: 1.25rem; /* Ajuste necessário para telas médias */
+        font-size: 1.25rem;
     }
 }
 
 
-
-
-
-
-
-/* Estilos para telas grandes (exemplo: tablets em orientação paisagem) */
 @media screen and (min-width: 992px) {
     .skills {
         margin: 4rem; 
@@ -129,12 +105,6 @@
 }
 
 
-
-
-
-
-
-/* Estilos para telas extra grandes (exemplo: monitores grandes) */
 @media screen and (min-width: 1200px) {
     .skills {
         margin: 2rem 5rem; 
